@@ -1,3 +1,1 @@
-Touchstone 3: four HTML pages and one external CSS file.
-IMPORTANT: Add original Bakery_c.zip media files to media/ before uploading to GitHub. The HTML references .jpg, .png, and .mp4 assets.
-Upload this folder contents to a PUBLIC GitHub repository. Then enter the real repository URL and preview URL in the Word worksheet.
+Download the original Sophia Bakery_c.zip and extract its media files into this folder. The assignment requires the supplied media. Files are not included in this ZIP because they were not uploaded.
