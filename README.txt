@@ -1,1 +1,1 @@
-Download the original Sophia Bakery_c.zip and extract its media files into this folder. The assignment requires the supplied media. Files are not included in this ZIP because they were not uploaded.
+Touchstone 4: upload the contents of this folder to the root of the existing North-Star-Bakery GitHub repository. Keep existing media files in media/. The site is a demonstration; forms do not send information.

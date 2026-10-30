@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Products | North Star Bakery</title>
   <link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
 </head>
 <body>
   <header>
@@ -25,7 +26,7 @@
       <h2 id="bread-heading">Breads</h2>
       <p>Everyday sandwich loaves and rustic artisan breads, typically $6-$12 per loaf.</p>
       <figure>
-       <img src="media/bakery-signature-loaf.png?v=2" alt="North Star Bakery's signature artisan loaf with a golden crust" width="540">
+        <img src="media/bakery-signature-loaf.png" alt="North Star Bakery's signature artisan loaf with a golden crust" width="540">
         <figcaption>Our Signature Loaf: a hearty, fresh-baked favorite for sharing at the table.</figcaption>
       </figure>
     </section>
@@ -38,7 +39,14 @@
       <p>Simple celebration cakes and custom requests, with estimated prices starting at $30 depending on size and details.</p>
       <p>We don't offer online checkout. <a href="contact.html">Send a pre-order inquiry</a> and we'll follow up about options.</p>
     </section>
-  </main>
+  <section class="favorites-panel" aria-labelledby="favorites-heading">
+<h2 id="favorites-heading">Save your bakery favorites</h2>
+<p>Pick the treats you like. Your favorites will still be here when you come back on this browser.</p>
+<div id="favorite-options" class="favorite-options"></div>
+<p id="favorites-summary" class="status-message" aria-live="polite"></p>
+<button id="clear-favorites" type="button">Clear favorites</button>
+</section>
+</main>
   <footer>
     <p>&copy; 2026 North Star Bakery. Baked with care for our neighbors.</p>
     <p><a href="contact.html">Ask about a pre-order</a></p>

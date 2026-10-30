@@ -28,3 +28,13 @@ footer a { color:#fff; }
  section { padding:1.75rem 2rem; }
  nav ul { gap:1.3rem; }
 }
+
+/* Touchstone 4: interactive features and form feedback */
+.favorites-panel{margin-top:1.5rem;padding:1rem;border:2px solid #9b5b2b;border-radius:12px;background:#fff7ed}
+.favorite-options{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0}
+.favorite-choice{padding:.65rem .9rem;background:#fff;border:1px solid #a67a54;border-radius:8px;display:flex;align-items:center;gap:.5rem;cursor:pointer}
+.favorite-choice:has(input:checked){background:#fce1bd;border:2px solid #79421d}
+.field-error{display:block;color:#a32222;font-size:.92rem;font-weight:600;margin-top:.25rem}
+[aria-invalid="true"]{outline:2px solid #a32222}
+.status-message{font-weight:600;margin-top:.7rem}
+@media(max-width:600px){.favorite-options{flex-direction:column}}
